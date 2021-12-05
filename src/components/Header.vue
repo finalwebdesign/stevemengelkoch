@@ -1,15 +1,16 @@
 <template>
   <div class="header">
-  <div class="logo">
+    <div class="logo">
       <img alt="Vue logo" src="../assets/logo.png" />
-  </div>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/certficates">Certificates</router-link> |
-    <router-link to="/portfolio">Portfolio</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </div>
+    </div>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/resume">Resume</router-link> |
+      <router-link to="/certficates">Certificates</router-link> |
+      <router-link to="/portfolio">Portfolio</router-link> |
+      <router-link to="/contact">Contact</router-link>
+    </div>
   </div>
 </template>
 

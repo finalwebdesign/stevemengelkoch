@@ -22,7 +22,7 @@
     </p>
     <a href="about" title="About Steve"><button>About Steve</button></a>
     <br />
-    <button>Steve's Resume</button>
+    <a href="resume" title="Steve's Resume"><button>Steve's Resume</button></a>
     <br />
     <a href="contact" title="Contact Steve"><button>Contact Steve</button></a>
   </div>
