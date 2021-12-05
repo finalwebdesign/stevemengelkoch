@@ -1,20 +1,16 @@
 <template>
-  <div class="certificates">
+    <div class="certificates">
     <Header />
-    <h1>This is an Certificates page</h1>
-  </div>
+    <h1>Steve Mengelkoch's Certificates</h1>
+    </div>
 </template>
 
-<style scoped>
-
-</style>
-
-<script>
+<script lang="ts">
 import { defineComponent } from "vue";
-import Header from "@/components/Header.vue";
+import Header from "@/components/Header.vue"; // @ is an alias to /src
 
 export default defineComponent({
-  name: "Certificates",
+  name: "Home",
   components: {
     Header,
   },
