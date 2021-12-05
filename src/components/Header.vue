@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="logo">
-      <img alt="Vue logo" src="../assets/logo.png" />
+      <a href="/" title="Steve Mengelkoch"><img alt="Steve Mengelkoch Logo" src="../assets/logo.png" /></a>
     </div>
     <div id="nav">
       <router-link to="/">Home</router-link> |
