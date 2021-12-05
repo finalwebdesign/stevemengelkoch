@@ -11,31 +11,31 @@ const routes: Array<RouteRecordRaw> = [
     path: "/about",
     name: "About",
     component: () =>
-      import( "../views/About.vue"),
+      import("../views/About.vue"),
   },
   {
     path: "/resume",
     name: "Resume",
     component: () =>
-      import( "../views/Resume.vue"),
+      import("../views/Resume.vue"),
   },
   {
     path: "/certificates",
     name: "Certificates",
     component: () =>
-      import( "../views/Certificates.vue"),
+      import("../views/Certificates.vue"),
   },
   {
     path: "/portfolio",
     name: "Portfolio",
     component: () =>
-      import( "../views/Portfolio.vue"),
+      import("../views/Portfolio.vue"),
   },
   {
     path: "/contact",
     name: "Contact",
     component: () =>
-      import( "../views/Contact.vue"),
+      import("../views/Contact.vue"),
   },
 ];
 

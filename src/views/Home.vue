@@ -5,7 +5,7 @@
     <img src="../assets/steve-mengelkoch.jpg" />
     </div>
     <p>
-      Steve Mengelkoch is a webmaster and inbound marketing professional. Over
+      <strong>Steve Mengelkoch</strong> is a webmaster and inbound marketing professional. Over
       the past 15 years he has been responsible for the design, development and
       management of some of the internets most elaborate and successful
       websites. Working primarily with businessese in the South FL area, Steve
@@ -20,11 +20,11 @@
       educated in computer programing, coding, website development, graphic
       design, applications and digital consulting.
     </p>
-    <a href="about" title="About Steve"><button>About Steve</button></a>
+    <a href="/about" title="About Steve"><button>About Steve</button></a>
     <br />
-    <a href="resume" title="Steve's Resume"><button>Steve's Resume</button></a>
+    <a href="/resume" title="Steve's Resume"><button>Steve's Resume</button></a>
     <br />
-    <a href="contact" title="Contact Steve"><button>Contact Steve</button></a>
+    <a href="/contact" title="Contact Steve"><button>Contact Steve</button></a>
     <Footer />
   </div>
 </template>
