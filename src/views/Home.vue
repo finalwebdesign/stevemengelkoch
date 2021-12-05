@@ -25,17 +25,20 @@
     <a href="resume" title="Steve's Resume"><button>Steve's Resume</button></a>
     <br />
     <a href="contact" title="Contact Steve"><button>Contact Steve</button></a>
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
+import Footer from "@/components/Footer.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
   components: {
     Header,
+    Footer,
   },
 });
 </script>

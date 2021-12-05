@@ -33,30 +33,39 @@
 
 <h1>EDUCATION:</h1>
 <h2>University of Minnesota</h2>
-<h4>Bachelors Degree  - Minneapolis, MN</h4>
-<h3>Bachelor in Business & Marketing</h3>
+<ul>
+  <li>Bachelors Degree  - Minneapolis, MN</li>
+<li>Bachelor in Business & Marketing</li>
+</ul>
 
 <h2>St. Cloud State University</h2>
-<h4>General Education Courses - Saint Cloud, MN</h4>
+<ul>
+  <li>General Education Courses - Saint Cloud, MN</li>
+</ul>
 
 <h1>SKILLS and LANGUAGES:</h1>
-<p>Hardworking, motivated, and driven; strong work ethic.</p>
-<p>Microsoft Office (Word, Excel, PowerPoint, Outlook).</p>
-<p>Spanish language skills.</p>
-<p>Strong communication and educational skills.</p>
-<p>College course work in international studies, marketing, economics, calculus, IT.</p>
-<p>Study abroad experience</p>
+<ul>
+  <li>Hardworking, motivated, and driven; strong work ethic.</li>
+<li>Microsoft Office (Word, Excel, PowerPoint, Outlook).</li>
+<li>Spanish language skills.</li>
+<li>Strong communication and educational skills.</li>
+<li>College course work in international studies, marketing, economics, calculus, IT.</li>
+<li>Study abroad experience</li>
+</ul>
   </div>
+  <Footer />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
+import Footer from "@/components/Footer.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
   components: {
     Header,
+    Footer,
   },
 });
 </script>
