@@ -21,13 +21,16 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "Header",
-  props: {
-    msg: String,
-  },
 });
 </script>
 
 <style scoped>
+.header {
+  padding-bottom: 70px;
+}
+nav{
+  padding-top: 40px
+}
 h3 {
   margin: 40px 0 0;
 }

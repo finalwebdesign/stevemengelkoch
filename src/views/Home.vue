@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Header msg="Welcome to Steve Mengelkoch's Portfolio" />
+    <Header />
     <div class="feature">
     <img src="../assets/steve-mengelkoch.jpg" />
     </div>
@@ -20,19 +20,19 @@
       educated in computer programing, coding, website development, graphic
       design, applications and digital consulting.
     </p>
-    <a href="/about" title="About Steve"><button>About Steve</button></a>
+    <a href="https://stevemengelkoch.com/about" title="About Steve"><button>About Steve</button></a>
     <br />
-    <a href="/resume" title="Steve's Resume"><button>Steve's Resume</button></a>
+    <a href="https://stevemengelkoch.com/resume" title="Steve's Resume"><button>Steve's Resume</button></a>
     <br />
-    <a href="/contact" title="Contact Steve"><button>Contact Steve</button></a>
+    <a href="https://stevemengelkoch.com/contact" title="Contact Steve"><button>Contact Steve</button></a>
     <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Header from "@/components/Header.vue"; // @ is an alias to /src
-import Footer from "@/components/Footer.vue"; // @ is an alias to /src
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
 
 export default defineComponent({
   name: "Home",
@@ -50,5 +50,8 @@ export default defineComponent({
 button {
   padding: 10px;
   margin: 5px;
+  color: #224f4e;
+  background-color: #66BDBB;
+  text-shadow: none;
 }
 </style>
