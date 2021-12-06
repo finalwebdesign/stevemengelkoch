@@ -28,3 +28,10 @@ export default defineComponent({
   name: "Footer",
 });
 </script>
+
+<style scoped>
+.footer {
+  background-color: #f9950b;
+  padding: 5px;
+}
+</style>

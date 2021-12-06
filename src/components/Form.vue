@@ -1,5 +1,10 @@
 	<template>
-    <div id="contact-form" class="contact-form">
+	<div class="form">
+		<h1>Contact Steve Mengelkoch</h1>
+
+		</div>
+    
+	<!-- <div id="contact-form" class="contact-form">
 		<h1 class="contact-form_title">Contact Form</h1>
 		<div class="separator"></div>
 
@@ -12,13 +17,20 @@
 		   <button class="button">Send</button>
 		</form>
 	</div>
-    </template>
+		-->
+    </template> 
+
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Form",
+  name: "Mosic",
+  props: {
+    msg: String,
+  },
 });
 </script>
+
+
 

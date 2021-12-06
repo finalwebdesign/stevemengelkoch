@@ -40,9 +40,10 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #f9950b;
 }
 .logo {
   float: left;
+  padding: 40px;
 }
 </style>

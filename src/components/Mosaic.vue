@@ -1,11 +1,11 @@
 <template>
   <div class="mosaic">
     <div class="row">
-      <div class="css-certificate">
-        <h3>CSS SoloLean Certificate</h3>
+      <div class="umn-diploma">
+        <h3>Univeristy of Minnesota Diploma</h3>
         <img
-          src="../assets/certificates/css-sololearn-certificate.jpg"
-          title="CSS Certificate"
+          src="../assets/certificates/uofm-diploma-steve-mengelkoch.jpg"
+          title="Univeristy of Minnesota Diploma"
         />
         <p>
           Work with the best professional webite design and development firm in
@@ -14,7 +14,22 @@
           the professional deisgn and development of Miami Marketing Comapny the
           best in the USA.
         </p>
-        <button>CSS SoloLean Certificate</button>
+        <button>Univeristy of Minnesota Diploma</button>
+      </div>
+      <div class="google-ads">
+        <h3>Google Ads Certified</h3>
+        <img
+          src="../assets/certificates/google-ads-certificate.jpg"
+          title="Univeristy of Minnesota Diploma"
+        />
+        <p>
+          Work with the best professional webite design and development firm in
+          the local Miami, FL area. Miami Marketing Company works closly with
+          local Miami, FL businesses both large and small. Find out what makes
+          the professional deisgn and development of Miami Marketing Comapny the
+          best in the USA.
+        </p>
+        <button>Google Ads Certified</button>
       </div>
       <div class="html-certificate">
         >
@@ -31,6 +46,21 @@
           for the best services available!
         </p>
         <button>HTML SoloLean Certificate</button>
+      </div>
+      <div class="css-certificate">
+        <h3>CSS SoloLean Certificate</h3>
+        <img
+          src="../assets/certificates/css-sololearn-certificate.jpg"
+          title="CSS Certificate"
+        />
+        <p>
+          Work with the best professional webite design and development firm in
+          the local Miami, FL area. Miami Marketing Company works closly with
+          local Miami, FL businesses both large and small. Find out what makes
+          the professional deisgn and development of Miami Marketing Comapny the
+          best in the USA.
+        </p>
+        <button>CSS SoloLean Certificate</button>
       </div>
 
       <div class="javascript">
@@ -53,7 +83,7 @@
       </div>
       <div class="PHP">
         <a href="PHP" title="PHP">
-          <h3>View Portfolio</h3>
+          <h3>PHP SoloLearn Certificate</h3>
 
           <img
             src="../assets/certificates/php-sololearn-certificate.jpg"
@@ -76,7 +106,7 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "Mosic",
+  name: "Mosaic",
   props: {
     msg: String,
   },
