@@ -1,7 +1,7 @@
 <template>
   <Header />
   <div class="feature">
-      <TitleAbout />
+      <TitleResume />
       <img
         src="../assets/banners/resume.jpg"
         title="Steve Mengelkoch"
@@ -106,14 +106,14 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
 import Footer from "@/components/Footer.vue"; // @ is an alias to /src
-import TitleAbout from "@/components/TitleAbout.vue"; // @ is an alias to /src
+import TitleResume from "@/components/TitleResume.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
   components: {
     Header,
     Footer,
-    TitleAbout,
+    TitleResume,
   },
 });
 </script>

@@ -62,8 +62,8 @@ export default defineComponent({
 button {
   padding: 10px;
   margin: 5px;
-  color: #224f4e;
-  background-color: #66bdbb;
+  color: #ffffff;
+  background-color: #be8619;
   text-shadow: none;
 }
 img {
