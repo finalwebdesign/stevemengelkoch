@@ -1,5 +1,13 @@
 <template>
   <Header />
+  <div class="feature">
+      <TitleAbout />
+      <img
+        src="../assets/banners/resume.jpg"
+        title="Steve Mengelkoch"
+        alt="Steve Mengelkoch"
+      />
+    </div>
   <div class="resume">
     <h1>PROFESSIONAL EXPERIENCE:</h1>
     <h2>Final Web Design, Inc.</h2>
@@ -98,18 +106,30 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
 import Footer from "@/components/Footer.vue"; // @ is an alias to /src
+import TitleAbout from "@/components/TitleAbout.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "Home",
   components: {
     Header,
     Footer,
+    TitleAbout,
   },
 });
 </script>
 
 <style scoped>
+img {
+  margin: -10px -10px 10px -10px;
+}
 .resume {
   text-align: left;
 }
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
+

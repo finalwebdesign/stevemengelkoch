@@ -1,29 +1,23 @@
 <template>
-<el-container>
-  <h1>
-    VIEW STEVE'S PORTFOLIO<br />
-    OF WEBSITE DEVELOPMENT
-  </h1>
-  <a href="contact"><el-button>CONTACT STEVE NOW</el-button></a>
-  </el-container>
+  <div class="title">
+    <h1>
+      SEE STEVE MENGELKOCH'S<br />
+      WORK & PROOFESESIIONAL RESUME
+    </h1>
+    <a href="contact"><button>CONTACT STEVE NOW</button></a>
+  </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "TitlePortfolio",
+  name: "TitleAbout",
 });
 </script>
 
 <style scoped>
-
-el-button {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #BE8619;
-    padding: 20px 40px 20px 40px;
-    border-radius: 25px;
+h1 {
+  color: white;
 }
 </style>
