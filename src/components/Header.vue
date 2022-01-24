@@ -11,7 +11,8 @@
       <router-link to="/resume">Resume</router-link> |
       <router-link to="/certificates">Certificates</router-link> |
       <router-link to="/portfolio">Portfolio</router-link> |
-      <router-link to="/contact">Contact</router-link>
+      <router-link to="/contact"></router-link>
+      <el-button>Contact</el-button>>
     </div>
   </div>
 </template>
@@ -27,9 +28,11 @@ export default defineComponent({
 <style scoped>
 .header {
   padding-bottom: 70px;
+  background-color: rgb(233, 232, 232);
+  margin: -10px -10px 0px -10px;
 }
 nav {
-  padding-top: 40px;
+  padding-top: 55px 0px 0px 0px;
 }
 h3 {
   margin: 40px 0 0;
@@ -47,6 +50,6 @@ a {
 }
 .logo {
   float: left;
-  padding: 40px;
+  padding: 40px 40px 0px 60px;
 }
 </style>
