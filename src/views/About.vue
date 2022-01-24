@@ -1,6 +1,14 @@
 <template>
   <div class="about">
     <Header />
+    <div class="feature">
+      <TitleAbout />
+      <img
+        src="../assets/banners/about.jpg"
+        title="Steve Mengelkoch"
+        alt="Steve Mengelkoch"
+      />
+    </div>
     <h1>About Steve Mengelkoch</h1>
     <p>
       Steve was born and raised in Minneapolis Minnesota. Upon Graduating with a
@@ -47,21 +55,23 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
 import Footer from "@/components/Footer.vue"; // @ is an alias to /src
+import TitleAbout from "@/components/TitleAbout.vue"; // @ is an alias to /src
 
 export default defineComponent({
   name: "About",
   components: {
     Header,
     Footer,
+    TitleAbout,
   },
 });
 </script>
 
 <style scoped>
-/*
-.about {
-  float: left;
-  text-align: left;
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-*/
 </style>
