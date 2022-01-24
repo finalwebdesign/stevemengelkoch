@@ -1,10 +1,8 @@
-	<template>
-	<div class="form">
-		<h1>Contact Steve Mengelkoch</h1>
-
-		</div>
-    
-	<!-- <div id="contact-form" class="contact-form">
+<template>
+  <div class="form">
+    <h1>Contact Steve Mengelkoch</h1>
+  </div>
+  <!-- <div id="contact-form" class="contact-form">
 		<h1 class="contact-form_title">Contact Form</h1>
 		<div class="separator"></div>
 
@@ -16,11 +14,8 @@
 			<textarea name="message" v-model="contact.message" rows="4" placeholder="Message"></textarea>
 		   <button class="button">Send</button>
 		</form>
-	</div>
-		-->
-    </template> 
-
-
+	</div>-->
+</template>
 <script lang="ts">
 import { defineComponent } from "vue";
 
@@ -31,6 +26,3 @@ export default defineComponent({
   },
 });
 </script>
-
-
-
