@@ -28,8 +28,8 @@ export default defineComponent({
 .header {
   padding-bottom: 70px;
 }
-nav{
-  padding-top: 40px
+nav {
+  padding-top: 40px;
 }
 h3 {
   margin: 40px 0 0;

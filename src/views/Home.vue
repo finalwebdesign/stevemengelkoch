@@ -2,14 +2,15 @@
   <div class="home">
     <Header />
     <div class="feature">
-    <img src="../assets/steve-mengelkoch.jpg" />
+      <img src="../assets/steve-mengelkoch.jpg" />
     </div>
     <p>
-      <strong>Steve Mengelkoch</strong> is a webmaster and inbound marketing professional. Over
-      the past 15 years he has been responsible for the design, development and
-      management of some of the internets most elaborate and successful
-      websites. Working primarily with businessese in the South FL area, Steve
-      has become a prominent voice in the local web and digital marketing scene.
+      <strong>Steve Mengelkoch</strong> is a webmaster and inbound marketing
+      professional. Over the past 15 years he has been responsible for the
+      design, development and management of some of the internets most elaborate
+      and successful websites. Working primarily with businessese in the South
+      FL area, Steve has become a prominent voice in the local web and digital
+      marketing scene.
     </p>
     <p>
       Steve is always looking to expand his web and marketing knowledge. Stevee
@@ -20,11 +21,17 @@
       educated in computer programing, coding, website development, graphic
       design, applications and digital consulting.
     </p>
-    <a href="https://stevemengelkoch.com/about" title="About Steve"><button>About Steve</button></a>
+    <a href="https://stevemengelkoch.com/about" title="About Steve"
+      ><button>About Steve</button></a
+    >
     <br />
-    <a href="https://stevemengelkoch.com/resume" title="Steve's Resume"><button>Steve's Resume</button></a>
+    <a href="https://stevemengelkoch.com/resume" title="Steve's Resume"
+      ><button>Steve's Resume</button></a
+    >
     <br />
-    <a href="https://stevemengelkoch.com/contact" title="Contact Steve"><button>Contact Steve</button></a>
+    <a href="https://stevemengelkoch.com/contact" title="Contact Steve"
+      ><button>Contact Steve</button></a
+    >
     <Footer />
   </div>
 </template>
@@ -45,13 +52,13 @@ export default defineComponent({
 
 <style>
 .feature {
- float: left;
+  float: left;
 }
 button {
   padding: 10px;
   margin: 5px;
   color: #224f4e;
-  background-color: #66BDBB;
+  background-color: #66bdbb;
   text-shadow: none;
 }
 </style>
