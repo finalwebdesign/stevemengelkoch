@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header>
     <div class="logo">
       <a href="/" title="Steve Mengelkoch"
         ><img alt="Steve Mengelkoch Logo" src="../assets/logo.png"
@@ -14,7 +14,7 @@
       <router-link to="/contact"></router-link>
       <button>Contact Steve</button>
     </div>
-  </div>
+  </header>
 </template>
 
 <script lang="ts">
@@ -26,10 +26,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
-.header {
-  padding-bottom: 70px;
+header {
   background-color: rgb(233, 232, 232);
   margin: -10px -10px 0px -10px;
+  padding: 10px 0px;
 }
 
 nav {

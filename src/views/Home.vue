@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Header />
+    <Title />
     <div class="feature">
       <img
         src="../assets/banners/home.jpg"
@@ -45,20 +46,19 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Title from "@/components/Title.vue";
 
 export default defineComponent({
   name: "Home",
   components: {
     Header,
     Footer,
+    Title,
   },
 });
 </script>
 
 <style scoped>
-.feature {
-  float: left;
-}
 button {
   padding: 10px;
   margin: 5px;
@@ -67,7 +67,12 @@ button {
   text-shadow: none;
 }
 img {
-  float: left;
   margin: -10px -10px 10px -10px;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>

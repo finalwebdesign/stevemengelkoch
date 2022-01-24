@@ -1,7 +1,7 @@
 <template>
 <el-container>
   <h1>
-    LEARN MORE ABOUOT<br />
+    LEARN MORE ABOUT<br />
     STEVE MENGELKOCH
   </h1>
   <a href="contact"><el-button>CONTACT STEVE NOW</el-button></a>
