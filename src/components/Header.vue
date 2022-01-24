@@ -12,7 +12,7 @@
       <router-link to="/certificates">Certificates</router-link> |
       <router-link to="/portfolio">Portfolio</router-link> |
       <router-link to="/contact"></router-link>
-      <el-button>Contact</el-button>>
+      <button>Contact Steve</button>
     </div>
   </div>
 </template>
@@ -31,6 +31,7 @@ export default defineComponent({
   background-color: rgb(233, 232, 232);
   margin: -10px -10px 0px -10px;
 }
+
 nav {
   padding-top: 55px 0px 0px 0px;
 }
@@ -46,7 +47,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #f9950b;
+  color: #be8619;
 }
 .logo {
   float: left;

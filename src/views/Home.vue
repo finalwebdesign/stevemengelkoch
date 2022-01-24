@@ -2,6 +2,11 @@
   <div class="home">
     <Header />
     <div class="feature">
+      <img
+        src="../assets/banners/home.jpg"
+        title="Steve Mengelkoch"
+        alt="Steve Mengelkoch"
+      />
       <img src="../assets/steve-mengelkoch.jpg" />
     </div>
     <p>
@@ -50,7 +55,7 @@ export default defineComponent({
 });
 </script>
 
-<style>
+<style scoped>
 .feature {
   float: left;
 }
@@ -60,5 +65,9 @@ button {
   color: #224f4e;
   background-color: #66bdbb;
   text-shadow: none;
+}
+img {
+  float: left;
+  margin: -10px -10px 10px -10px;
 }
 </style>
