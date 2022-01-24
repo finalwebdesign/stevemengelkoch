@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <Header />
-    <Title />
     <div class="feature">
+      <Title />
       <img
         src="../assets/banners/home.jpg"
         title="Steve Mengelkoch"

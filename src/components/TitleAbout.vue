@@ -15,15 +15,3 @@ export default defineComponent({
   name: "TitlePortfolio",
 });
 </script>
-
-<style scoped>
-
-el-button {
-    font-family: "Montserrat", Sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #BE8619;
-    padding: 20px 40px 20px 40px;
-    border-radius: 25px;
-}
-</style>
