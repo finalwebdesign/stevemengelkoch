@@ -4,7 +4,7 @@
     <div class="feature">
       <TitleContact />
       <img
-        src="../assets/banners/home.jpg"
+        src="../assets/banners/contact.jpg"
         title="Steve Mengelkoch"
         alt="Steve Mengelkoch"
       />

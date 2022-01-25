@@ -10,8 +10,8 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/resume">Resume</router-link> |
       <router-link to="/certificates">Certificates</router-link> |
-      <router-link to="/portfolio">Portfolio</router-link> |
-      <router-link to="/contact"> <button>Contact Steve</button></router-link>
+      <router-link to="/portfolio">Portfolio</router-link>
+      <router-link to="/contact"><button>Contact Steve</button></router-link>
     </div>
   </header>
 </template>

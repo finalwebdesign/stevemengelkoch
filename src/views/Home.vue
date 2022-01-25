@@ -59,15 +59,12 @@ export default defineComponent({
 </script>
 
 <style scoped>
-button {
-  padding: 10px;
-  margin: 5px;
-  color: #ffffff;
-  background-color: #be8619;
-  text-shadow: none;
-}
 img {
+  float: left;
   margin: -10px -10px 10px -10px;
+}
+button {
+  margin: 10xp 0px;
 }
 .title {
   position: absolute;

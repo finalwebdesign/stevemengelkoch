@@ -15,7 +15,7 @@
 }
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #3d3d3d;
   font-size: 18px;
   text-transform: uppercase;
   margin: 0px 10px 0px 10px;

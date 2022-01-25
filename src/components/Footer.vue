@@ -31,7 +31,7 @@ export default defineComponent({
 
 <style scoped>
 .footer {
-  background-color: #f9950b;
+  background-color: #be8619;
   width: 100%;
   float: left;
 }
