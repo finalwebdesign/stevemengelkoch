@@ -1,9 +1,6 @@
 <template>
   <div class="title">
-    <h1>
-      SEE STEVE MENGELKOCH'S<br />
-      WORK & PROFESSIONAL RESUME
-    </h1>
+    <h1>STEVE MENGELKOCH PROJECTS & RESUME</h1>
     <a href="contact"><button>CONTACT STEVE NOW</button></a>
   </div>
 </template>

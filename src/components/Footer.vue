@@ -1,5 +1,17 @@
 <template>
   <div class="footer">
+    <div class="main-navigation">
+      <h2>Main Navigation:</h2>
+    </div>
+    <div class="portfolio-projects">
+      <h2>Portfolio Projects:</h2>
+    </div>
+    <div class="social-media">
+      <h2>Social Media:</h2>
+    </div>
+    <div class="certificates">
+      <h2>Certificates:</h2>
+    </div>
     <p>
       Contact <strong>Steve Mengelkoch</strong> | Phone:
       <strong>(888) 674-7779</strong>
@@ -31,8 +43,25 @@ export default defineComponent({
 
 <style scoped>
 .footer {
-  background-color: #be8619;
+  background-color: #e9e8e8;
   width: 100%;
+  float: left;
+  margin-top: 30px;
+}
+.main-navigation {
+  width: 25%;
+  float: left;
+}
+.portfolio-projects {
+  width: 25%;
+  float: left;
+}
+.social-media {
+  width: 25%;
+  float: left;
+}
+.certificates {
+  width: 25%;
   float: left;
 }
 </style>

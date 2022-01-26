@@ -156,10 +156,7 @@
         </div>
         <div class="project">
           <h3>DJsMiamiFL.com</h3>
-          <img
-            src="../assets/portfolio/djsmiamifl.jpg"
-            title="DJs Miami FL"
-          />
+          <img src="../assets/portfolio/djsmiamifl.jpg" title="DJs Miami FL" />
           <p>
             Alpha Sapien provides the highest quality designer bags and wallets
             available. All of our products are designed in Italy, made in the

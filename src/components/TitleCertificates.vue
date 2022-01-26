@@ -1,9 +1,6 @@
 <template>
   <div class="title">
-    <h1>
-      CERTIFICATES & AWARDS<br />
-      STEVE MENGELKOCH
-    </h1>
+    <h1>CERTIFICATES & AWARDS FOR MENGELKOCH</h1>
     <a href="contact"><button>CONTACT STEVE NOW</button></a>
   </div>
 </template>
@@ -17,9 +14,6 @@ export default defineComponent({
 </script>
 
 <style scoped>
-h1 {
-  color: white;
-}
 .title {
   position: absolute;
   top: 50%;

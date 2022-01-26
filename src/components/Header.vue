@@ -26,7 +26,7 @@ export default defineComponent({
 
 <style scoped>
 header {
-  background-color: rgb(233, 232, 232);
+  background-color: #e9e8e8;
   margin: -10px -10px 0px -10px;
   padding: 10px 0px;
 }
