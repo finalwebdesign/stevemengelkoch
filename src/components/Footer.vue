@@ -69,9 +69,11 @@ li:hover {
   text-transform: uppercase;
 }
 .footer {
-  width: 100%;
-  float: left;
-  background-color: #cacaca;
+    background-color: #cacaca;
+    width: 100%;
+    float: left;
+    margin-left: -10px;
+    padding: 10px;
 }
 .main-navigation {
   width: 25%;
