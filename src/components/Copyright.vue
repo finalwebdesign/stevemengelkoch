@@ -34,5 +34,7 @@ export default defineComponent({
   background-color: #e9e8e8;
   width: 100%;
   float: left;
+  margin-left: -10px;
+  padding: 10px;
 }
 </style>
