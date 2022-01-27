@@ -9,7 +9,14 @@
         alt="Steve Mengelkoch"
       />
     </div>
-    <h1>About Steve Mengelkoch</h1>
+
+    <div class="portrait">
+          <img src="../assets/steve-mengelkoch.jpg" />
+
+    </div>
+    <div class="content">
+              <h1>More About<br>Steve Mengelkoch</h1>
+
     <p>
       Steve was born and raised in Minneapolis Minnesota. Upon Graduating with a
       bachelors degree from the University of Minnesota in business and
@@ -47,6 +54,7 @@
       >
       on my contact page.
     </p>
+    </div>
     <Footer />
     <Copyright />
   </div>
@@ -71,13 +79,23 @@ export default defineComponent({
 </script>
 
 <style scoped>
+
+img {
+  margin: -10px -10px 10px -10px;
+}
 .title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-img {
-  margin: -10px -10px 10px -10px;
+.portrait {
+  width: 45%;
+  float: left;
+}
+.content {
+  width: 45%;
+  float: left;
+  padding: 10px;
 }
 </style>

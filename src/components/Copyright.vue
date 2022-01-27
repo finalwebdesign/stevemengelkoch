@@ -8,7 +8,7 @@
       Local: <strong>(612) 615-9394</strong> | Local:
       <strong>(305) 812-5999</strong>
     </p>
-    <p>Email: <strong>Steve.Mengelkoch@Gmail.com</strong></p>
+    <p>Email: <strong>Steve.Mengelkoch@gmail.com</strong></p>
     <p>
       <em>© Copyright 2013 - 2022</em> | Designed by
       <a
