@@ -39,6 +39,7 @@
       ><button>Contact Steve</button></a
     >
     <Footer />
+    <Copyright />
   </div>
 </template>
 
@@ -46,6 +47,7 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Copyright from "@/components/Copyright.vue";
 import Title from "@/components/Title.vue";
 
 export default defineComponent({
@@ -53,6 +55,7 @@ export default defineComponent({
   components: {
     Header,
     Footer,
+    Copyright,
     Title,
   },
 });
@@ -64,7 +67,7 @@ img {
   margin: -10px -10px 10px -10px;
 }
 button {
-  margin: 10xp 0px;
+  margin-bottom: 10px;
 }
 .title {
   position: absolute;

@@ -2,34 +2,48 @@
   <div class="footer">
     <div class="main-navigation">
       <h2>Main Navigation:</h2>
+      <ul class="main-menu">
+        <li><a href="/" title="Home">Home</a></li>
+        <li><a href="/about" title="About">About</a></li>
+        <li><a href="/resume" title="Resume">Resume</a></li>
+        <li><a href="/certificates" title="Certificates">Certificates</a></li>
+        <li><a href="/portfolio" title="Portfolio">Portfolio</a></li>
+        <li><a href="/contact" title="Contact">Contact</a></li>
+      </ul>
     </div>
     <div class="portfolio-projects">
       <h2>Portfolio Projects:</h2>
+      <ul class="portfolio-menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Resume</li>
+        <li>Certificates</li>
+        <li>Portfoliio</li>
+        <li>Contact</li>
+      </ul>
     </div>
     <div class="social-media">
       <h2>Social Media:</h2>
+      <ul class="portfolio-menu">
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+        <li>YouTube</li>
+        <li>Portfoliio</li>
+        <li>Contact</li>
+      </ul>
     </div>
     <div class="certificates">
       <h2>Certificates:</h2>
+      <ul class="portfolio-menu">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Certificates</li>
+        <li>Portfoliio</li>
+        <li>Contact</li>
+      </ul>
     </div>
-    <p>
-      Contact <strong>Steve Mengelkoch</strong> | Phone:
-      <strong>(888) 674-7779</strong>
-    </p>
-    <p>
-      Local: <strong>(612) 615-9394</strong> | Local:
-      <strong>(305) 812-5999</strong>
-    </p>
-    <p>Email: <strong>Steve.Mengelkoch@Gmail.com</strong></p>
-    <p>
-      <em>© Copyright 2013 - 2022</em> | Designed by
-      <a
-        href="https://finalwebdesign.com"
-        title="Final Web Design"
-        target="_blank"
-        >Final Web Design</a
-      >, Inc.
-    </p>
   </div>
 </template>
 
@@ -42,19 +56,38 @@ export default defineComponent({
 </script>
 
 <style scoped>
+li {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+li:hover {
+  color: #be8619;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .footer {
-  background-color: #e9e8e8;
   width: 100%;
   float: left;
-  margin-top: 30px;
+  background-color: #cacaca;
 }
 .main-navigation {
   width: 25%;
   float: left;
 }
+.main-menu {
+  float: left;
+  text-align: left;
+}
 .portfolio-projects {
   width: 25%;
   float: left;
+}
+.portfolio-menu {
+  float: left;
+  text-align: left;
 }
 .social-media {
   width: 25%;

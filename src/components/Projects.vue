@@ -183,7 +183,7 @@ h3 {
   margin-bottom: 10px;
 }
 .project {
-  width: 33%;
+  width: 33.333%;
   float: left;
 }
 </style>

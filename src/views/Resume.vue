@@ -103,6 +103,7 @@
       </ul>
     </div>
     <Footer />
+    <Copyright />
   </div>
 </template>
 
@@ -110,6 +111,8 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
 import Footer from "@/components/Footer.vue"; // @ is an alias to /src
+import Copyright from "@/components/Copyright.vue"; // @ is an alias to /src
+
 import TitleResume from "@/components/TitleResume.vue"; // @ is an alias to /src
 
 export default defineComponent({
@@ -117,6 +120,7 @@ export default defineComponent({
   components: {
     Header,
     Footer,
+    Copyright,
     TitleResume,
   },
 });

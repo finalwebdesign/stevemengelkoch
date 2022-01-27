@@ -12,6 +12,3 @@ export default defineComponent({
   name: "Title",
 });
 </script>
-
-<style scoped>
-</style>

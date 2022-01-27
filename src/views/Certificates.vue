@@ -13,6 +13,7 @@
     <h1>Steve Mengelkoch's Certificates</h1>
     <Mosaic />
     <Footer />
+    <Copyright />
   </div>
 </template>
 
@@ -20,6 +21,7 @@
 import { defineComponent } from "vue";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
 import Footer from "@/components/Footer.vue"; // @ is an alias to /src
+import Copyright from "@/components/Copyright.vue";
 import Mosaic from "@/components/Mosaic.vue"; // @ is an alias to /src
 import TitleCertificates from "@/components/TitleCertificates.vue";
 
@@ -28,6 +30,7 @@ export default defineComponent({
   components: {
     Header,
     Footer,
+    Copyright,
     Mosaic,
     TitleCertificates,
   },
