@@ -14,12 +14,12 @@
     <div class="portfolio-projects">
       <h2>Portfolio Projects:</h2>
       <ul class="portfolio-menu">
-        <li>Home</li>
-        <li>About</li>
-        <li>Resume</li>
-        <li>Certificates</li>
-        <li>Portfoliio</li>
-        <li>Contact</li>
+        <li>Buy Online Fragrances</li>
+        <li>Code Clothing</li>
+        <li>DJs Miami FL</li>
+        <li>Hennepin Tech</li>
+        <li>U Cardiology</li>
+        <li>USA Grow Shop</li>
       </ul>
     </div>
     <div class="social-media">
@@ -38,10 +38,10 @@
       <ul class="portfolio-menu">
         <li>HTML</li>
         <li>CSS</li>
+        <li>PHP</li>
         <li>JavaScript</li>
-        <li>Certificates</li>
-        <li>Portfoliio</li>
-        <li>Contact</li>
+        <li>Google Ads</li>
+        <li>Bachelors Degree</li>
       </ul>
     </div>
   </div>

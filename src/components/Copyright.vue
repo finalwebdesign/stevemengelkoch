@@ -31,10 +31,11 @@ export default defineComponent({
 
 <style scoped>
 .copyright {
-  background-color: #e9e8e8;
+  background-color: #1a1e1f;
   width: 100%;
   float: left;
   margin-left: -10px;
   padding: 10px;
+  color: white;
 }
 </style>
