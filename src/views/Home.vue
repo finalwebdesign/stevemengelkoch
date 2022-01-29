@@ -35,17 +35,36 @@
         grow and impove their online presence.
       </p>
     </div>
-    <a href="https://stevemengelkoch.com/about" title="About Steve"
-      ><button>About Steve</button></a
-    >
-    <br />
-    <a href="https://stevemengelkoch.com/resume" title="Steve's Resume"
-      ><button>Steve's Resume</button></a
-    >
-    <br />
-    <a href="https://stevemengelkoch.com/contact" title="Contact Steve"
-      ><button>Contact Steve</button></a
-    >
+
+    <div class="full-width">
+      <div class="about-button">
+        <a href="https://stevemengelkoch.com/about" title="About Steve"
+          ><button>About Steve</button></a
+        >
+      </div>
+    </div>
+
+    <div class="full-width-2">
+      <div class="resume-styles">
+        <div class="resume-image"></div>
+        <img src="../assets/gallery/el-salvador.jpg" />
+        <div class="resume-button">
+          <a href="https://stevemengelkoch.com/resume" title="Steve's Resume"
+            ><button>Steve's Resume</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="full-width-3">
+      <div class="certificates-button">
+        <a
+          href="https://stevemengelkoch.com/certificates"
+          title="Steve's Certificates"
+          ><button>Steve's Certificates</button></a
+        >
+      </div>
+    </div>
+
     <Footer />
     <Copyright />
   </div>
@@ -85,5 +104,28 @@ button {
 }
 .content {
   margin: 20px;
+}
+.full-width {
+  width: 100%;
+  height: 500px;
+  background-color: #dfdede;
+  float: left;
+  margin-left: -10px;
+  padding: 10px;
+}
+.full-width-2 {
+  width: 100%;
+  height: 500px;
+  background-color: #a7a7a7;
+  float: left;
+  margin-left: -10px;
+  padding: 10px;
+}
+.full-width-3 {
+  width: 100%;
+  height: 500px;
+  float: left;
+  margin-left: -10px;
+  padding: 10px;
 }
 </style>

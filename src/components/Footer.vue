@@ -56,6 +56,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+h2 {
+  text-transform: uppercase;
+}
 li {
   font-family: "Montserrat", Sans-serif;
   font-size: 17px;

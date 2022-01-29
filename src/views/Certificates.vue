@@ -8,7 +8,6 @@
         title="Steve Mengelkoch"
         alt="Steve Mengelkoch"
       />
-      <img src="../assets/steve-mengelkoch.jpg" />
     </div>
     <h1>Steve Mengelkoch's Certificates</h1>
     <Mosaic />
