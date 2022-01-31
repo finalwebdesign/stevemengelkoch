@@ -36,11 +36,22 @@
       </p>
     </div>
 
-    <div class="full-width">
+    <div class="about-full-width">
+      <div class="about-image">
+        <img src="../assets/steve-mengelkoch.jpg" />
+      </div>
+      <div class="about-content">
+        <p>
+          Steve Mengelkoch is a professional webmaster, computer programmer and
+          technology fanatic. Working as a professional coder and programmer for
+          over 10 years, Steve has established himself as leader in the field of
+          software engineering and technology.
+        </p>
+      </div>
       <div class="about-button">
         <a href="https://stevemengelkoch.com/about" title="About Steve"
           ><button>About Steve</button></a
-        >
+        > 
       </div>
     </div>
 
@@ -64,7 +75,6 @@
         >
       </div>
     </div>
-
     <Footer />
     <Copyright />
   </div>
@@ -105,25 +115,31 @@ button {
 .content {
   margin: 20px;
 }
-.full-width {
+.about-full-width {
   width: 100%;
-  height: 500px;
-  background-color: #dfdede;
+  height: 750px;
   float: left;
   margin-left: -10px;
   padding: 10px;
+  background-color: #dfdede;
+}
+.about-image {
+  width: 50%;
+}
+.about-content {
+  width: 50%;
 }
 .full-width-2 {
   width: 100%;
-  height: 500px;
-  background-color: #a7a7a7;
+  height: 750px;
   float: left;
   margin-left: -10px;
   padding: 10px;
 }
 .full-width-3 {
   width: 100%;
-  height: 500px;
+  height: 750px;
+  background-color: #dfdede;
   float: left;
   margin-left: -10px;
   padding: 10px;
