@@ -24,7 +24,7 @@
         Steve is always looking to expand his web and marketing knowledge. Steve
         is aggressively seeking new connections in the South Florida area and
         throughout the United States. If you are interested in learning more
-        abouot
+        about.
         <strong
           >professional website design, development, app development, coding or
           SEO</strong
@@ -37,25 +37,111 @@
     </div>
 
     <div class="about-full-width">
-      <div class="about-image">
-        <img src="../assets/steve-mengelkoch.jpg" />
-      </div>
-      <div class="about-content">
-        <p>
-          Steve Mengelkoch is a professional webmaster, computer programmer and
-          technology fanatic. Working as a professional coder and programmer for
-          over 10 years, Steve has established himself as leader in the field of
-          software engineering and technology.
-        </p>
-      </div>
-      <div class="about-button">
-        <a href="https://stevemengelkoch.com/about" title="About Steve"
-          ><button>About Steve</button></a
-        > 
+      <div class="about-section">
+        <div class="about-image">
+          <img src="../assets/steve-mengelkoch.jpg" />
+        </div>
+        <div class="about-content">
+          <p>
+            Steve Mengelkoch is a professional webmaster, computer programmer
+            and technology fanatic. Working as a professional coder and
+            programmer for over 10 years, Steve has established himself as
+            leader in the field of software engineering and technology.
+          </p>
+          <div class="about-button">
+            <a href="/about" title="About Steve"
+              ><button>About Steve</button></a
+            >
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="full-width-2">
+    <div class="resume-full-width">
+      <div class="resume-section">
+        <div class="about-image">
+          <img src="../assets/steve-mengelkoch.jpg" />
+        </div>
+        <div class="resume-content">
+          <p>
+            Steve Mengelkoch is a professional webmaster, computer programmer
+            and technology fanatic. Working as a professional coder and
+            programmer for over 10 years, Steve has established himself as
+            leader in the field of software engineering and technology.
+          </p>
+          <div class="resume-button">
+            <a href="/resume" title="Resume Steve"
+              ><button>Resume Steve</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="certificates-full-width">
+      <div class="certificates-section">
+        <div class="certificates-image">
+          <img src="../assets/steve-mengelkoch.jpg" />
+        </div>
+        <div class="certificates-content">
+          <p>
+            Steve Mengelkoch is a professional webmaster, computer programmer
+            and technology fanatic. Working as a professional coder and
+            programmer for over 10 years, Steve has established himself as
+            leader in the field of software engineering and technology.
+          </p>
+          <div class="certificates-button">
+            <a href="/certificates" title="Certificates Steve"
+              ><button>Steve's Certificates</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-full-width">
+      <div class="portfolio-section">
+        <div class="portfolio-image">
+          <img src="../assets/steve-mengelkoch.jpg" />
+        </div>
+        <div class="certificates-content">
+          <p>
+            Steve Mengelkoch is a professional webmaster, computer programmer
+            and technology fanatic. Working as a professional coder and
+            programmer for over 10 years, Steve has established himself as
+            leader in the field of software engineering and technology.
+          </p>
+          <div class="portfolio-button">
+            <a href="/portfolio" title="Portfolio Steve"
+              ><button>Steve's Portfolio</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-full-width">
+      <div class="contact-section">
+        <div class="contact-image">
+          <img src="../assets/steve-mengelkoch.jpg" />
+        </div>
+        <div class="contact-content">
+          <p>
+            Steve Mengelkoch is a professional webmaster, computer programmer
+            and technology fanatic. Working as a professional coder and
+            programmer for over 10 years, Steve has established himself as
+            leader in the field of software engineering and technology.
+          </p>
+          <div class="contact-button">
+            <a href="/contact" title="Contact Steve"
+              ><button>Contact Steve</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="full-width-2">
       <div class="resume-styles">
         <div class="resume-image"></div>
         <img src="../assets/gallery/el-salvador.jpg" />
@@ -65,16 +151,16 @@
           >
         </div>
       </div>
-    </div>
+    </div> 
     <div class="full-width-3">
       <div class="certificates-button">
         <a
-          href="https://stevemengelkoch.com/certificates"
+          href="/certificates"
           title="Steve's Certificates"
           ><button>Steve's Certificates</button></a
         >
-      </div>
-    </div>
+      </div> 
+    </div> -->
     <Footer />
     <Copyright />
   </div>
@@ -118,17 +204,75 @@ button {
 .about-full-width {
   width: 100%;
   height: 750px;
-  float: left;
   margin-left: -10px;
   padding: 10px;
   background-color: #dfdede;
 }
 .about-image {
-  width: 50%;
+  width: 45%;
+  float: left;
+  padding: 15px;
 }
 .about-content {
-  width: 50%;
+  width: 45%;
+  float: right;
+  padding: 5px;
 }
+
+.resume-full-width {
+  width: 100%;
+  height: 750px;
+  margin-left: -10px;
+  padding: 10px;
+  background-color: #c4c4c4;
+}
+.resume-image {
+  width: 45%;
+  float: right;
+  padding: 15px;
+}
+.resume-content {
+  width: 45%;
+  float: right;
+  padding: 5px;
+}
+
+.certificates-full-width {
+  width: 100%;
+  height: 750px;
+  margin-left: -10px;
+  padding: 10px;
+  background-color: #dfdede;
+}
+.certificates-image {
+  width: 45%;
+  float: left;
+  padding: 15px;
+}
+.certificates-content {
+  width: 45%;
+  float: right;
+  padding: 5px;
+}
+
+.portfolio-full-width {
+  width: 100%;
+  height: 750px;
+  margin-left: -10px;
+  padding: 10px;
+  background-color: #c4c4c4;
+}
+.portfolio-image {
+  width: 45%;
+  float: left;
+  padding: 15px;
+}
+.portfolio-content {
+  width: 45%;
+  float: right;
+  padding: 5px;
+}
+
 .full-width-2 {
   width: 100%;
   height: 750px;
