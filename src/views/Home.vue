@@ -39,9 +39,10 @@
     <div class="about-full-width">
       <div class="about-section">
         <div class="about-image">
-          <img src="../assets/steve-mengelkoch.jpg" />
+          <img src="../assets/overview/about.png" />
         </div>
         <div class="about-content">
+          <h3>About Steve Mengelkoch</h3>
           <p>
             Steve Mengelkoch is a professional webmaster, computer programmer
             and technology fanatic. Working as a professional coder and
@@ -59,10 +60,12 @@
 
     <div class="resume-full-width">
       <div class="resume-section">
-        <div class="about-image">
-          <img src="../assets/steve-mengelkoch.jpg" />
+        <div class="resume-image">
+          <img src="../assets/overview/resume.png" />
         </div>
         <div class="resume-content">
+          <h3>Steve Mengelkoch's Resume</h3>
+
           <p>
             Steve Mengelkoch is a professional webmaster, computer programmer
             and technology fanatic. Working as a professional coder and
@@ -81,7 +84,7 @@
     <div class="certificates-full-width">
       <div class="certificates-section">
         <div class="certificates-image">
-          <img src="../assets/steve-mengelkoch.jpg" />
+          <img src="../assets/overview/certificates.png" />
         </div>
         <div class="certificates-content">
           <p>
@@ -102,9 +105,9 @@
     <div class="portfolio-full-width">
       <div class="portfolio-section">
         <div class="portfolio-image">
-          <img src="../assets/steve-mengelkoch.jpg" />
+          <img src="../assets/overview/portfolio.png" />
         </div>
-        <div class="certificates-content">
+        <div class="portfolio-content">
           <p>
             Steve Mengelkoch is a professional webmaster, computer programmer
             and technology fanatic. Working as a professional coder and
@@ -112,7 +115,7 @@
             leader in the field of software engineering and technology.
           </p>
           <div class="portfolio-button">
-            <a href="/portfolio" title="Portfolio Steve"
+            <a href="/portfolio" title="portfolio Steve"
               ><button>Steve's Portfolio</button></a
             >
           </div>
@@ -123,7 +126,7 @@
     <div class="contact-full-width">
       <div class="contact-section">
         <div class="contact-image">
-          <img src="../assets/steve-mengelkoch.jpg" />
+          <img src="../assets/overview/contact.png" />
         </div>
         <div class="contact-content">
           <p>
@@ -233,7 +236,7 @@ button {
 }
 .resume-content {
   width: 45%;
-  float: right;
+  float: left;
   padding: 5px;
 }
 
@@ -264,12 +267,12 @@ button {
 }
 .portfolio-image {
   width: 45%;
-  float: left;
+  float: right;
   padding: 15px;
 }
 .portfolio-content {
   width: 45%;
-  float: right;
+  float: left;
   padding: 5px;
 }
 
