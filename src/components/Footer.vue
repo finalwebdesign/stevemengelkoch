@@ -77,6 +77,7 @@ li:hover {
   float: left;
   margin-left: -10px;
   padding: 10px;
+  height: 400px;
 }
 .main-navigation {
   width: 25%;
