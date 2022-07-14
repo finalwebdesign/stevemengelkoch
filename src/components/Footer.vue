@@ -63,6 +63,7 @@ li {
   font-family: "Montserrat", Sans-serif;
   font-size: 17px;
   font-weight: 500;
+  padding: 10px;
 }
 li:hover {
   color: #be8619;

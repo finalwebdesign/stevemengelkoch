@@ -1,19 +1,19 @@
 <template>
   <div class="copyright">
-      <div class="details">
-    <p>
-      Local: (612) 615-9394 | Local: (305) 812-5999 | Email:
-      Steve.Mengelkoch@gmail.com
-      <br>
-      <em>© Copyright 2013 - 2022</em> | Designed by
-      <a
-        href="https://finalwebdesign.com"
-        title="Final Web Design"
-        target="_blank"
-        >Final Web Design</a
-      >, Inc.
-    </p>
-      </div>
+    <div class="details">
+      <p>
+        Local: (612) 615-9394 | Local: (305) 812-5999 | Email:
+        Steve.Mengelkoch@gmail.com
+        <br />
+        <em>© Copyright 2013 - 2022</em> | Designed by
+        <a
+          href="https://finalwebdesign.com"
+          title="Final Web Design"
+          target="_blank"
+          >Final Web Design</a
+        >, Inc.
+      </p>
+    </div>
   </div>
 </template>
 
@@ -34,6 +34,8 @@ export default defineComponent({
   padding: 10px;
   color: white;
   height: 200px;
+  font-style: "Montserrat", sans-serif;
+  padding: 10px;
 }
 .details {
   padding-top: 60px;
