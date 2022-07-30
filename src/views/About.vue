@@ -17,15 +17,15 @@
       <h1>More About<br />Steve Mengelkoch</h1>
 
       <p>
-        Steve was born and raised in Minneapolis Minnesota. Upon Graduating with
-        a bachelors degree from the University of Minnesota in business and
+        Steve was born and raised in Minneapolis Minnesota. After graduating
+        with a bachelors degree from the University of Minnesota in business and
         marketing Steve relocated to sunny Miami, FL.
       </p>
       <p>
-        Steve quickly became the lead marketer and webmaster at Final Web
-        Design, Inc. headquartered in downtown Miami. The company Final Web
-        Design has continued to grow and prosper as one of South Florida's most
-        recognized web development and SEO companies.
+        Steve quickly became the lead full-stack developer and webmaster at
+        Final Web Design, Inc. headquartered in downtown Miami. Steve grew
+        rapidly with Final Web Design and has continued to grow and prosper as
+        one of South Florida's most recognized software engineers.
       </p>
       <p>
         As a professional webmaster Steve has
@@ -34,9 +34,10 @@
           title="Experience and Skills"
           >extensive experience and skills</a
         >
-        in all forms of website development. With multiple projects developed on
-        todays most popular CMS systems such as Joomla, Wordpress, Drupal and
-        Magento, as well as traditional html, java and php web development.
+        in all forms of software development. With countless projects launched
+        using todays most popular technology such as Vue JS, React, AEM and CMS
+        platforms such as Joomla and WordPress. Steve is also well experienced
+        in coding HTML, CSS, JavaScriot and PHP web development.
       </p>
       <p>
         Steve's skills are not limited to web development but rather expand into

@@ -14,12 +14,12 @@
     <div class="portfolio-projects">
       <h2>Portfolio Projects:</h2>
       <ul class="portfolio-menu">
-        <li>Buy Online Fragrances</li>
-        <li>Code Clothing</li>
-        <li>DJs Miami FL</li>
-        <li>Hennepin Tech</li>
-        <li>U Cardiology</li>
-        <li>USA Grow Shop</li>
+        <li><a href="https://buyonlinefragrances.com" title="Buy Online Fragrances" target="_blank">Buy Online Fragrances</a></li>
+        <li><a href="https://coder.clothing" title="Coder Clothing" target="_blank">Code Clothing</a></li>
+        <li><a href="https://djsmiamifl" title="DJs Miami FL" target="_blank">DJs Miami FL</a></li>
+        <li><a href="https://hennepintech.edu" title="Hennepin Tech" target="_blank">Hennepin Tech</a></li>
+        <li><a href="https://ucardiologyfellows.com" title="U Cardiology Fellows" target="_blank">U Cardiology</a></li>
+        <li><a href="https:/usagrowstore.com" title="USA Grow Store" target="_blank">USA Grow Shop</a></li>
       </ul>
     </div>
     <div class="social-media">
